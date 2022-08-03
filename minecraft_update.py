@@ -6,7 +6,7 @@ def ubuntu_server(href):
 
 def server_update():
     ''' Update the below variable to your Minecraft Server Home Directory '''
-    #minecraft_dir = "/home/minecraft/"
+    minecraft_dir = "/home/minecraft/"
     
     current_time = time.strftime("%Y%m%d-%H%M%S", time.localtime())
     with open("{}minecraft_server_update.log".format(minecraft_dir), "a") as log_file:
